@@ -5,9 +5,10 @@
   "main": "src/electron/main.js",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --config webpack.config.prod.js --progress",
+    "build": "webpack --config webpack.config.prod.js --progress && tsc --build tsconfig.electron.json",
     "app": "electron .",
-    "pack": "electron-builder"
+    "pack": "electron-builder",
+    "test": "node ./dist/__test__/electron/get-file.test.js"
   },
   "keywords": [],
   "author": "",

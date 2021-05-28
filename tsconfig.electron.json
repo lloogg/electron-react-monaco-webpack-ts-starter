@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "ES2017", // For NodeJS 8 compat, see https://www.typescriptlang.org/tsconfig#target for more info
     "module": "commonjs",
-    "outDir": "./dist/node"
+    "outDir": "./dist"
   },
   "include": ["src/electron", "__test__"]
 }
