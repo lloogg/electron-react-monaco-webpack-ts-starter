@@ -6,4 +6,4 @@ function getFileTree(path): Object {
   return filteredTree;
 }
 
-module.exports = { getFileTree };
+export { getFileTree };

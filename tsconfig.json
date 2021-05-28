@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "esnext",
+    "module": "es2015",
     "jsx": "react-jsx",
     "sourceMap": true,
     "strict": false,
@@ -16,7 +16,7 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "isolatedModules": false
-  }
-  // "include": ["src"],
-  // "exclude": ["node_modules"]
+  },
+  "include": ["src/browser"],
+  "exclude": ["node_modules"]
 }
