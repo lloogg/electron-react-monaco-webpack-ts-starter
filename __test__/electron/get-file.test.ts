@@ -1,6 +1,7 @@
-import { getFileTree } from '../../src/electron/files/get-files';
+import { directoryTree } from '../../src/electron/files/get-files';
 console.log(
-  getFileTree(
+  directoryTree(
     'C:\\Users\\septlog\\Downloads\\work\\weixuyang\\ModelCoderGUI\\src',
+    { extensions: /\.(c)$/ },
   ),
 );

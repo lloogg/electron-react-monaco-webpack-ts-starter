@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "ES2017", // For NodeJS 8 compat, see https://www.typescriptlang.org/tsconfig#target for more info
+    "target": "es2015", // For NodeJS 8 compat, see https://www.typescriptlang.org/tsconfig#target for more info
     "module": "commonjs",
     "outDir": "./dist"
   },

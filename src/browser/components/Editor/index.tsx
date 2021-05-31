@@ -15,7 +15,7 @@ import { useState } from 'react';
       return './ts.worker.bundle.js';
     }
     return './editor.worker.bundle.js';
-  }
+  },
 };
 
 const Editor = () => {
@@ -29,7 +29,8 @@ const Editor = () => {
   }
   const options = {
     selectOnLineNumbers: true,
-    automaticLayout: true
+    automaticLayout: true,
+    scrollBeyondLastLine: false,
   };
 
   return (

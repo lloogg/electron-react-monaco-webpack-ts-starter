@@ -1,4 +1,15 @@
 .explorer {
   width: 10%;
-  border-right: 1px solid #dbdbdb;
+  /* border-right: 1px solid #dbdbdb; */
+  position: relative;
+}
+.explorer::after {
+  content: ' ';
+  background-color: #dbdbdb;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  cursor: w-resize;
 }
